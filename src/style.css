@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa;
+}
+
+#main-tasks {
+  border-radius: 0;
+}
+
+#input-task {
+  border: none;
+  width: 100%;
+  height: 100%;
+}

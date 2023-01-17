@@ -37,9 +37,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 📖 To Do List <a name="about-project"></a>
 
-**Awesome Books** is a project to list books
+**To Do List** is a project to list tasks
 
 ## 🛠 Built With <a name="built-with"></a>
 
