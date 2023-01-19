@@ -1,5 +1,6 @@
 import './style.css';
-import DisplayTask, { AddTask, ShowAllTasks, DeleteAllSelected } from './modules/TaskFeatures.js';
+import DisplayTask, { AddTask, ShowAllTasks } from './modules/CreateTasks.js';
+import { DeleteAllSelected } from './modules/RemoveTask.js';
 
 const inputText = document.getElementById('input-task');
 
