@@ -11,13 +11,19 @@ export const SelectTask = (idTask) => {
   const checkBox = document.getElementById(`check-${idTask}`);
   const addedInputTask = mainLi.querySelector('input[type=text]');
   checkBox.addEventListener('change', function select() {
+    const getLocalData = GetTasks();
+    const findIndex = getLocalData.findIndex((task) => task.id === idTask);
     if (this.checked) {
       addedInputTask.classList.add('text-decoration-line-through');
       taskToDelete.push(idTask);
+      getLocalData[findIndex].completed = true;
+      StoreTask(getLocalData);
       return;
     }
     addedInputTask.classList.remove('text-decoration-line-through');
     taskToDelete = taskToDelete.filter(((task) => idTask !== task));
+    getLocalData[findIndex].completed = false;
+    StoreTask(getLocalData);
   });
 };
 
