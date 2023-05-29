@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://pluspng.com/img-png/to-do-list-png-checklist-icon-checklist-icon-png-list-icon-image-1429-1200.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>To Do List</b></h3>
